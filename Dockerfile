@@ -15,7 +15,7 @@ ENV NRSERVER_DEB_URL  "http://download.neorouter.com/Downloads/NRFree/Update_2.3
 RUN chown 1000  -R /etc/container_environment
 
 RUN chmod 777 -R /etc/container_environment
-    
+RUN chmod 777 -R /etc/container_environment.sh
 EXPOSE 32976
 VOLUME /usr/local/ZebraNetworkSystems/NeoRouter
 
