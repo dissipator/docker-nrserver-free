@@ -15,7 +15,7 @@ ENV NRSERVER_DEB_URL  "http://download.neorouter.com/Downloads/NRFree/Update_2.3
 RUN chown 1000  -R /etc/container_environment
 
 RUN chmod 777 -R /var/lib/syslog-ng
-RUN rm -rf /dev/log && mkdir chmod 777 -R /dev/log
+RUN rm -rf /dev/log && mkdir /dev/log 
 RUN chmod 777 -R /etc/container_environment*
 
 EXPOSE 32976
