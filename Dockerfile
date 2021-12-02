@@ -1,6 +1,6 @@
 #BUILDS qlustor/nrserver-free
 
-FROM phusion/baseimage
+FROM qlustor/nrserver-free
 MAINTAINER Team QLUSTOR <team@qlustor.com>
 
 ENV NRSERVER_DEB_NAME "nrserver-2.3.1.4360-free-ubuntu-amd64.deb"
